@@ -14,11 +14,11 @@ public class SumNumbers {
         while (i <= sumTo) // create while loop to iterate through numbers
         {
             sumTotal = sumTotal + i;
-            // increase sumTotal by i on each pass throught the loop
+            // increase sumTotal by i on each pass through the loop
 
             i++;//increase i by one on each pass
         }
-        System.out.println("\nWhen i add all the integers from \"1\" up to and including \"" + sumTo + "\",");
+        System.out.println("\nWhen I add all the integers from \"1\" up to and including \"" + sumTo + "\",");
         System.out.println("\nI get a total of " + sumTotal); // output result to screen
     }
 }
